@@ -1,0 +1,45 @@
+.img1,
+.img2,
+.img3,
+.img4 {
+    position: relative;
+    opacity: 0.7;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.img1 {
+    background-image: url('../images/home6.jpg');
+    min-height: 100%;
+}
+.img2 {
+    background-image: url('../images/home1.jpg');
+    min-height: 400px;
+}
+.img3 {
+    background-image: url('../images/home2');
+    min-height: 400px
+}
+.img4 {
+    background-image: url('../images/home3');
+    min-height: 400px;
+}
+.section {
+    text-align: center;
+
+}
+.title {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.border {
+    font-weight: 800;
+    color: white;    
+}
