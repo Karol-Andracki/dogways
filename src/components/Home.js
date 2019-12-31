@@ -1,5 +1,6 @@
-import React from 'react'
-import styles from '../styles/Home.module.css'
+import React from 'react';
+import styles from '../styles/Home.module.css';
+import Button from './UI elements/Button'
 
 export default function Home() {
     return (
@@ -8,6 +9,7 @@ export default function Home() {
                 <div className={styles.title}>
                     <span className={styles.spanText}>
                         Welcome to DogsWays <br/>
+                       
                         
                     
             </span>
@@ -17,6 +19,7 @@ export default function Home() {
                 <h2>Our mission</h2>
                 <p>
                 At the DogsWays we place the right relationship between the owner(s) and the dog(s) central. We don’t use any intimidation or dominance-based methods. We passionately believe that the dog’s welfare benefits from increased education and aims to provide this by offering scientifically up-to-date information.
+         <Button />
         </p>
             </section>
             <div className={styles.img2}>
