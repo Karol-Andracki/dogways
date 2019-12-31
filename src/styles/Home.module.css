@@ -13,6 +13,7 @@
     background-image: url('../images/home6.jpg');
     min-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     opacity: 0.9
