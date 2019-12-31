@@ -1,9 +1,9 @@
 import React from 'react'
-import styles from '../styles'
+import styles from '../styles/Home.module.css'
 
 export default function Home() {
     return (
-        <div>
+        <>
             <div className={styles.img1}>
                 <div className={styles.title}>
                     <span className={styles.spanText}>
@@ -50,6 +50,6 @@ export default function Home() {
             </span>
                 </div>
             </div>
-        </div>
+        </>
     )
 }
