@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../styles/Home.module.css';
 import logo from '../images/logo.png'
-import Button from './UI elements/Button';
+import Button1 from './UI elements/Button1';
 
 export default function Home() {
     return (
@@ -15,7 +15,7 @@ export default function Home() {
 
                     </span>
                 </div>
-                <button>About Us</button>
+                <Button1 />
             </div>
             <section className={styles.section}>
                 <h2>Our mission</h2>
