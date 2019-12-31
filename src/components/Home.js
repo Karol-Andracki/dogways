@@ -7,9 +7,9 @@ export default function Home() {
     return (
         <>
             <div className={styles.img1}>
-                <div className={styles.title}>
+                <div className={styles.title1}>
                     <span className={styles.spanText}>
-                        Welcome to <img src={logo} width="200px"/> <br />
+                        Welcome to <img src={logo} className={styles.heroImg}/> <br />
 
 
 
