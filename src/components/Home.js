@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from '../styles/Home.module.css';
-import Button from './UI elements/Button'
+import logo from '../images/logo.png'
+import Button from './UI elements/Button';
 
 export default function Home() {
     return (
@@ -8,19 +9,20 @@ export default function Home() {
             <div className={styles.img1}>
                 <div className={styles.title}>
                     <span className={styles.spanText}>
-                        Welcome to DogsWays <br/>
-                       
-                        
-                    
-            </span>
+                        Welcome to <img src={logo} width="200px"/> <br />
+
+
+
+                    </span>
                 </div>
             </div>
             <section className={styles.section}>
                 <h2>Our mission</h2>
                 <p>
-                At the DogsWays we place the right relationship between the owner(s) and the dog(s) central. We don’t use any intimidation or dominance-based methods. We passionately believe that the dog’s welfare benefits from increased education and aims to provide this by offering scientifically up-to-date information.
-         <Button />
-        </p>
+                    At the DogsWays we place the right relationship between the owner(s) and the dog(s) central. We don’t use any intimidation or dominance-based methods. We passionately believe that the dog’s welfare benefits from increased education and aims to provide this by offering scientifically up-to-date information.
+         
+                </p>
+                
             </section>
             <div className={styles.img2}>
                 <div className={styles.title}>
