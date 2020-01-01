@@ -15,7 +15,7 @@ export default function Home() {
 
                     </span>
                 </div>
-                <Button1 />
+                <Button1>About Us</Button1>
             </div>
             <section className={styles.section}>
                 <h2>Our mission</h2>
